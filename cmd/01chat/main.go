@@ -31,7 +31,7 @@ func main() {
 	fmt.Printf("Model: %s\n", *model)
 	fmt.Println(strings.Repeat("-", 50))
 	fmt.Println()
-	//
+
 	// Create an OpenAI-compatible client configured for OpenRouter
 	llm, err := openai.New(
 		openai.WithModel(*model),
